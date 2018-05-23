@@ -3,6 +3,8 @@
 
 Ce jour été consacré au Javascript (malheureusement)
 
+Pour la prod c'est go here : https://rawgit.com/Itspacome/THP_Day36/master/index2.html
+
 ### 1. Petit exercice de chauffe
 
 Pour l'exo de chauffe, il y a tout ce qu'il faut [ici](https://github.com/Itspacome/THP_Day36/blob/master/exo.js)
