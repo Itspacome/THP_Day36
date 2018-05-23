@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframes,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'OpenSans',sans-serif;
+    background: url(../landmannalaugar.jpg);
+    -webkit-background-size: cover;
+}
+
+#container {
+    font-size: 32px;
+    margin: 128px auto;
+    width: 768px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0,0,0,4);
+}
+
+#calculator, #number {
+    border-radius: 6px;
+}
+
+#calculator {
+    margin: 0 auto;
+    background-color: #DFE1E0;
+    border: 1px solid white;
+    width: 285px;
+    box-shadow: 0 7px 10px rgba(0,0,0,0.8)
+}
+
+#header {
+    padding: 10px;
+}
+
+input#number {
+    text-align: right;
+    background-color: #342B53;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+    width: 232px;
+}
+
+#body {
+    padding: 0 10px;
+}
+
+.buttons {
+    cursor: default;
+    text-align: center;
+    padding: 7px 12px;
+    font-size: 20px;
+    text-shadow: 0 -1px 1px #000;
+    color: #FFF;
+    font-weight: bold;
+    display: inline-block;
+    border-top: 1px solid #777;
+    width: 34px;
+    background: linear-gradient(#618396 0%,#25307F 100%);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.8);
+    margin-bottom: 10px;
+}
+
+.buttons:hover {
+    background: linear-gradient(#BFC30D 0%,#468D0C 100%);
+}
+
+.buttons:active {
+    box-shadow: none;
+}

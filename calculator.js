@@ -40,16 +40,20 @@ function substract(sub) {
     return result;
 }
 
+function clear(del) {
+    
+}
 
-// version avec eval(string)
 
-var calculation = Array();
-function get_calculation(calc_numbers) {
-    if (calc_numbers != '=') {
-        calculation.push(calc_numbers);
-        document.getElementById("calc_result").value = calculation.join('');
-    } else if (calc_numbers == '=') {
-        var calc = calculation.toString().replace(/,/g,"");
-        document.getElementById("calc_result").value = eval(calc)
+//calculatrice
+
+var calculate = Array();
+function calcul(nbcalcul) {
+    if (nbcalcul != '=') {
+        calculate.push(nbcalcul);
+        document.getElementById("result_of_calcul").value = calculate.join('');
+    } else if (nbcalcul == '=') {
+        var calc = calculate.toString().replace(/,/g,"");
+        document.getElementById("result_of_calcul").value = eval(calc)
     }
 }
