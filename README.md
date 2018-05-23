@@ -5,7 +5,7 @@ Ce jour été consacré au Javascript (malheureusement)
 
 ### 1. Petit exercice de chauffe
 
-Pour l'exo de chauffe, il y a tout ce qu'il faut [ici]()
+Pour l'exo de chauffe, il y a tout ce qu'il faut [ici](https://github.com/Itspacome/THP_Day36/blob/master/exo.js)
 
 Il y a bien une fonction : 
 
@@ -26,7 +26,7 @@ Pour voir les fonctions :
 	* divide()
 	* substract()
 
-Tu peux regarder le code [là]() qui en théorie fonctionne ! (Mais rien n'est moins sûr)
+Tu peux regarder le code [là](https://github.com/Itspacome/THP_Day36/blob/master/calculator.js) qui en théorie fonctionne ! (Mais rien n'est moins sûr)
 L'index.html, calculator.js et calculator.css forme la première calculatrice qui ne fonctionne pas bien mais avec toutes fonctions demandés.
 
 Pour regarder ma calculatrice qui fonctionne et qui est plus jolie regarde dans (la deuxième calculatrice):

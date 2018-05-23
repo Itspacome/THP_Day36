@@ -32,16 +32,12 @@ function divide(div) {
 
 
 function substract(sub) {
-    var nb = calc.split('-');
+    var nb = sub.split('-');
     var result = nb[0]
     for (var i = 1; i < nb.length; i++) {
         result -= parseInt(nb[i]);
       }
     return result;
-}
-
-function clear(del) {
-    
 }
 
 
@@ -53,7 +49,7 @@ function calcul(nbcalcul) {
         calculate.push(nbcalcul);
         document.getElementById("result_of_calcul").value = calculate.join('');
     } else if (nbcalcul == '=') {
-        var calc = calculate.toString().replace(/,/g,"");
-        document.getElementById("result_of_calcul").value = eval(calc)
+        var prod = calculate.toString().replace(/,/g,"");
+        document.getElementById("result_of_calcul").value = eval(prod)
     }
 }
